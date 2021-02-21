@@ -5,3 +5,18 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+lou = Owner.create(name: "Lou Scileppi")
+mike = Owner.create(name: "Mike Scileppi")
+vinny = Owner.create(name: "Vinny Scileppi")
+
+loumachine1 = lou.machines.create(location: "Sliceworks")
+loumachine2 = lou.machines.create(location: "Scileppis")
+mikemachine1 = mike.machines.create(location: "Colorado Lift")
+mikemachine2 = mike.machines.create(location: "Colorado Springs Lift")
+vinnymachine1 = vinny.machines.create(location: "Illianos")
+vinnymachine2 = vinny.machines.create(location: "Illianos Connecticut")
+
+
+
+
