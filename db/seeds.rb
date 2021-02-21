@@ -17,6 +17,29 @@ mikemachine2 = mike.machines.create(location: "Colorado Springs Lift")
 vinnymachine1 = vinny.machines.create(location: "Illianos")
 vinnymachine2 = vinny.machines.create(location: "Illianos Connecticut")
 
+pringles = Snack.create(name: "Pringles", price: 1.00)
+snickers = Snack.create(name: "Snickers", price: 2.00)
+goldfish = Snack.create(name: "Goldfish", price: 1.25)
+cheetos = Snack.create(name: "Cheetos", price: 1.75)
+oreos = Snack.create(name: "Oreos", price: 2.50)
+pretzels = Snack.create(name: "Pretzels", price: 0.75)
+
+MachineSnack.create(machine: loumachine1, snack: pringles)
+MachineSnack.create(machine: loumachine1, snack: snickers)
+MachineSnack.create(machine: loumachine2, snack: snickers)
+MachineSnack.create(machine: loumachine2, snack: goldfish)
+MachineSnack.create(machine: loumachine2, snack: oreos)
+MachineSnack.create(machine: mikemachine1, snack: goldfish)
+MachineSnack.create(machine: mikemachine1, snack: oreos)
+MachineSnack.create(machine: mikemachine2, snack: pretzels)
+MachineSnack.create(machine: mikemachine2, snack: cheetos)
+MachineSnack.create(machine: vinnymachine1, snack: pringles)
+MachineSnack.create(machine: vinnymachine1, snack: oreos)
+MachineSnack.create(machine: vinnymachine1, snack: snickers)
+MachineSnack.create(machine: vinnymachine2, snack: snickers)
+MachineSnack.create(machine: vinnymachine2, snack: oreos)
+
+
 
 
 
